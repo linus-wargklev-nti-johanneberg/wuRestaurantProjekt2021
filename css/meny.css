@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+}
+.div1 {
+    background-color: rgb(43, 46, 45);
+    display: grid;
+    grid-template-areas:
+    "h1 h2 h3"
+    "h4 h5 h6"
+    ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100vw;
+    height: 30vh;
+}
+.header1 {
+    grid-area: h1;
+}
+.header2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-area: h2;
+    font-size: 96px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header3 {
+    grid-area: h3;
+}
+.header4 {
+    grid-area: h4;
+}
+.header5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-area: h5;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.header6 {
+    grid-area: h6;
+}
+.div2 {
+    display: grid;
+    width: 100vw;
+    height: 10vh;
+    grid-template-areas: 
+    "n1 n2 n3 n4 n5"
+    ;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    background-image: linear-gradient(to right, white, grey);
+
+}
+.nav1 {
+    grid-area: n1;
+    background-color: rgb(39, 41, 40);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.nav2 {
+    grid-area: n2;
+    background-color: rgb(39, 41, 40);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.nav3 {
+    grid-area: n3;
+    background-color: rgb(39, 41, 40);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.nav4 {
+    grid-area: n4;
+    background-color: rgb(39, 41, 40);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.nav5 {
+    grid-area: n5;
+    background-color: rgb(39, 41, 40);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.div3 {
+    display: grid;
+    width: 100vw;
+    height: 15vh;
+    grid-template-areas: 
+    "si"
+    "sj"
+    ;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: rgb(39, 41, 40);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sectioni {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.sectionj {
+
+    display: flex;
+    justify-content: center;
+}
+.div4 {
+    display: grid;
+    width: 100vw;
+    height: 66vh;
+    grid-template-areas: 
+    "a1 a2"
+    "a1 a3"
+    "a1 a4"
+    ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-image: linear-gradient(to right, white, grey);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.article1 {
+    grid-area: a1;
+    background-image: url(../img/oj.PNG);
+    background-size: center;
+    border-radius: 20px;
+
+}
+.article2 {
+    grid-area: a2;
+    display: flex;
+    justify-content: center;
+}
+.article3 {
+    grid-area: a3;
+    display: flex;
+    justify-content: center;
+}
+.article4 {
+    grid-area: a4;
+    color: rgb(8, 95, 8);
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.sectionm {
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(39, 41, 40);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.div5 {
+    display:grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas: 
+    "a5 a6 a7 a8"
+    "a9 a10 a11 a12"
+    "a13 a14 a15 a16"
+    "a17 a18 a19 a20"
+    ;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-image: linear-gradient(to right, white, grey);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.article5 {
+    grid-area: a5;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.pengar {
+    color: rgb(8, 95, 8);
+}
+.article6 {
+    grid-area: a6;
+}
+.pommes {
+    height: 10vw;
+    width: 20vw;
+}
+.article7 {
+    grid-area: a7;
+}
+.article8 {
+    grid-area: a8;
+}
+.article9 {
+    grid-area: a9;
+}
+.article10 {
+    grid-area: a10;
+}
+.article11 {
+    grid-area: a11;
+}
+.article12 {
+    grid-area: a12;
+}
+.article13 {
+    grid-area: a13;
+}
+.article14 {
+    grid-area: a14;
+}
+.article15 {
+    grid-area: a15;
+}
+.article16 {
+    grid-area: a16;
+}
+.article17 {
+    grid-area: a17;
+}
+.article18 {
+    grid-area: a18;
+}
+.article19 {
+    grid-area: a19;
+}
+.article20 {
+    grid-area: a20;
+}
+.article21 {
+    grid-area: a21;
+}
+.sectionn {
+    width: 100vw;
+    height: 3,5vh;
+    background-color: rgb(39, 41, 40);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.div6 {
+    display:grid;
+    width: 100vw;
+    height: 200vh;
+    grid-template-areas: 
+    "a21 a22 a23 a24"
+    "a25 a26 a27 a28"
+    "a29 a30 a31 a32"
+    "a33 a34 a35 a36"
+    "a37 a38 a39 a40"
+    ;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-image: linear-gradient(to right, white, grey);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.burgers {
+    height: 40vh;
+    width: 50vh;
+}
+.bengar {
+    color: rgb(8, 95, 8);
+    font-size: 45px;
+}
+.article21 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article22 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article23 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article24 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article25 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article26 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article27 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article28 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article29 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article30 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article31 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article32 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article33 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article34 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article35 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article36 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article37 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article38 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article39 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article40 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
