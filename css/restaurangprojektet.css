@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 .div1 {
     background-color: rgb(43, 46, 45);
     display: grid;
@@ -50,6 +53,9 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(1, 1fr);
     background-image: linear-gradient(to right, white, grey);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 
 }
 .nav1 {
@@ -105,111 +111,622 @@
 .div3 {
     display: grid;
     width: 100vw;
-    height: 66vh;
+    height: 15vh;
     grid-template-areas: 
-    "a1 a2"
-    "a1 a3"
+    "si"
+    "sj"
     ;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 20px;
-    background-image: linear-gradient(to right, white, grey);
-    grid-gap: 2px;
-}
-.article1 {
-    grid-area: a1;
-    background-image: url(../img/AdobeStock_141630066-600x401.jpeg);
-    background-repeat: no-repeat;
-    border-radius: 20px;
-}
-.article2 {
-    grid-area: a2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: rgb(39, 41, 40);
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.article3 {
-    grid-area: a3;
+.sectioni {
+    font-size: 30px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-* {
-    margin: 0;
+.sectionj {
+
+    display: flex;
+    justify-content: center;
 }
 .div4 {
     display: grid;
     width: 100vw;
     height: 66vh;
     grid-template-areas: 
-    "a5 a4"
-    "a6 a4"
+    "a1 a2"
+    "a1 a3"
+    "a1 a4"
     ;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 20px;
+    grid-template-rows: repeat(3, 1fr);
     background-image: linear-gradient(to right, white, grey);
-    grid-gap: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.article1 {
+    grid-area: a1;
+    background-image: url(../img/oj.PNG);
+    background-size: center;
+    border-radius: 20px;
+
+}
+.article2 {
+    grid-area: a2;
+    display: flex;
+    justify-content: center;
+}
+.article3 {
+    grid-area: a3;
+    display: flex;
+    justify-content: center;
 }
 .article4 {
     grid-area: a4;
-    background-image: url(../img/Juicy_Vegan_Burger_Urban_deli.jpg);
-    background-repeat: no-repeat;
-    border-radius: 20px;
+    color: rgb(8, 95, 8);
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.sectionm {
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(39, 41, 40);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.div5 {
+    display:grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas: 
+    "a5 a6 a7 a8"
+    "a9 a10 a11 a12"
+    "a13 a14 a15 a16"
+    "a17 a18 a19 a20"
+    ;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-image: linear-gradient(to right, white, grey);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
 }
 .article5 {
     grid-area: a5;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
+
+    
+}
+.pengar {
+    color: rgb(8, 95, 8);
 }
 .article6 {
     grid-area: a6;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0;
 }
-.div5 {
-    display: grid;
-    width: 100vw;
-    height: 66vh;
-    grid-template-areas: 
-    "a8 a9"
-    "a8 a10"
-    ;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    background-image: linear-gradient(to right, white, grey);
-    grid-gap: 2px;
+.pommes {
+    height: 10vw;
+    width: 20vw;
 }
-
+.article7 {
+    grid-area: a7;
+}
 .article8 {
     grid-area: a8;
-    background-image: url(../img/2eac59376a8e4a53fd29c6436082b7ec.jpg);
-    background-repeat: no-repeat;
-    border-radius: 20px;
 }
 .article9 {
     grid-area: a9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .article10 {
     grid-area: a10;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+}
+.article11 {
+    grid-area: a11;
+}
+.article12 {
+    grid-area: a12;
+}
+.article13 {
+    grid-area: a13;
+}
+.article14 {
+    grid-area: a14;
+}
+.article15 {
+    grid-area: a15;
+}
+.article16 {
+    grid-area: a16;
+}
+.article17 {
+    grid-area: a17;
+}
+.article18 {
+    grid-area: a18;
+}
+.article19 {
+    grid-area: a19;
+}
+.article20 {
+    grid-area: a20;
+}
+.article21 {
+    grid-area: a21;
+}
+.sectionn {
+    width: 100vw;
+    height: 3,5vh;
+    background-color: rgb(39, 41, 40);
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.sectiono {
+    width: 100vw;
+    height: 3,5vh;
+    background-color: rgb(39, 41, 40);
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 .div6 {
+    display:grid;
+    width: 100vw;
+    height: 200vh;
+    grid-template-areas: 
+    "a21 a22 a23 a24"
+    "a25 a26 a27 a28"
+    "a29 a30 a31 a32"
+    "a33 a34 a35 a36"
+    "a37 a38 a39 a40"
+    ;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-image: linear-gradient(to right, white, grey);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.burgers {
+    height: 40vh;
+    width: 50vh;
+}
+.bengar {
+    color: rgb(8, 95, 8);
+    font-size: 45px;
+}
+.article21 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article22 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article23 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article24 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article25 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article26 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article27 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article28 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article29 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article30 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article31 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article32 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article33 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article34 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article35 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article36 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article37 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article38 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article39 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article40 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.div7 {
+    display: grid;
+    width: 100vw;
+    height: 160vh;
+    grid-template-areas:
+    "a41 a42"
+    "a43 a44"
+    "a45 a46"
+    "a47 a48"
+    "a49 a50"
+    "a51 a52"
+    "a53 a54"
+    "a55 a56"
+    "a57 a58"
+    ;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(9, 1fr);
+background-image: linear-gradient(to right, white, grey);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sauce {
+    height: 17vh;
+    width: 17vh;
+}
+.article41 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+    flex-direction: column;
+}
+.article42 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;   
+}
+.article43 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+    flex-direction: column;
+}
+.article45 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+    flex-direction: column;
+}
+.article47 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+    flex-direction: column;
+}
+.article49 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+    flex-direction: column;
+}
+.article51 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+    flex-direction: column;
+}
+.article53 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+    flex-direction: column;
+}
+.article55 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+    flex-direction: column;
+}
+.article57 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+    flex-direction: column;
+}
+.article44 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;   
+}
+.article46 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;   
+}
+.article48 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;   
+}
+.article50 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;   
+}
+.article52 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;   
+}
+.article54 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;   
+}
+.article56 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;   
+}
+.article58 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;   
+}
+.div8 {
+    display: grid;
+    width: 100vw;
+    height: 150vh;
+    grid-template-areas:
+    "a59 a60 a61 a62"
+    "a63 a64 a65 a66"
+    "a67 a68 a69 a70"
+    "a71 a72 a73 a74"
+    "a75 a76 a77 a78"
+    "a79 a80 a81 a82"
+    ;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(6, 1fr);
+background-image: linear-gradient(to right, white, grey);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dricka {
+    height: 25vh;
+    width: 7,5vh;
+}
+.article60 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article62 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article64 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article66 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article68 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article70 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article72 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article74 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article76 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article78 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article80 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article82 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article59 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article61 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article63 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article65 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article67 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article69 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article71 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article73 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article75 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article77 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article79 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.article81 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;   
+}
+.div9 {
     background-color: rgb(43, 46, 45);
     border-radius: 10px;
     display: grid;
@@ -220,6 +737,108 @@
     grid-template-rows: repeat(1, 1fr);
     width: 100vw;
     height: 30vh;
+}
+.div10 {
+    display: grid;
+    width: 100vw;
+    height: 66vh;
+    grid-template-areas: 
+    "a83 a84"
+    "a83 a85"
+    ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    background-image: linear-gradient(to right, white, grey);
+    grid-gap: 2px;
+}
+.article83 {
+    grid-area: a83;
+    background-image: url(../img/AdobeStock_141630066-600x401.jpeg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.article84 {
+    grid-area: a84;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.article85 {
+    grid-area: a85;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+* {
+    margin: 0;
+}
+.div11 {
+    display: grid;
+    width: 100vw;
+    height: 66vh;
+    grid-template-areas: 
+    "a87 a86"
+    "a88 a86"
+    ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    background-image: linear-gradient(to right, white, grey);
+    grid-gap: 2px;
+}
+.article86 {
+    grid-area: a86;
+    background-image: url(../img/Juicy_Vegan_Burger_Urban_deli.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.article87 {
+    grid-area: a87;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.article88 {
+    grid-area: a88;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+.div12 {
+    display: grid;
+    width: 100vw;
+    height: 66vh;
+    grid-template-areas: 
+    "a89 a90"
+    ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    background-image: linear-gradient(to right, white, grey);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    grid-gap: 2px;
+}
+
+.article89 {
+    grid-area: a89;
+    border-radius: 20px;
+    background-image: url(../img/dippsas.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+}
+
+.article90 {
+    grid-area: a90;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;   
+
 }
 .section1 {
     color: white;
