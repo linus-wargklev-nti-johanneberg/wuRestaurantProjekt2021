@@ -873,3 +873,82 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: center;
     justify-content: center;
 }
+.div13 {
+    display: grid;
+    width: 100vw;
+    height: 80vh;
+    grid-template-areas: 
+    "a91 a92"
+    "a93 a94"
+    "a95 a96"
+    ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-image: linear-gradient(to right, white, grey);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    grid-gap: 2px;
+}
+.boka {
+    height: 25vh;
+    width: 7,5vh
+}
+.article91 {
+    grid-area: a91;
+}
+.article92 {
+    grid-area: a92;
+    display: flex;
+    justify-content: right;
+    align-content: right;
+}
+.lengar {
+    color: rgb(8, 95, 8);
+}
+.div14 {
+    display: grid;
+    width: 100vw;
+    height: 80vh;
+    grid-template-areas: 
+    "a97 a97 a97 a97 a97 a97 a97 a97"
+    "a99 a100 a101 a102 a103 a104 a105 a106"
+    "a98 a98 a98 a98 a98 a98 a98 a98"
+    ;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-image: linear-gradient(to right, white, grey);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.article97 {
+    grid-area: a97
+}
+.article99 {
+    grid-area: a99
+}
+.article100 {
+    grid-area: a100
+}
+.article101 {
+    grid-area: a101
+}
+.article102 {
+    grid-area: a102
+}
+.article103 {
+    grid-area: a103
+}
+.article104 {
+    grid-area: a104
+}
+.article105 {
+    grid-area: a105
+}
+.article106 {
+    grid-area: a106
+}
+.article98 {
+    grid-area: a98;
+}
+.linje {
+    width: 20vh;
+    height: 20vh;
+}
