@@ -76,6 +76,7 @@
     align-items: center;
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
 
 }
 .nav3 {
@@ -86,6 +87,7 @@
     align-items: center;
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
 
 }
 .nav4 {
@@ -96,6 +98,7 @@
     align-items: center;
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
 
 }
 .nav5 {
@@ -728,7 +731,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .div9 {
     background-color: rgb(43, 46, 45);
-    border-radius: 10px;
     display: grid;
     grid-template-areas:
     "s1 s2 s3"
@@ -754,8 +756,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .article83 {
     grid-area: a83;
-    background-image: url(../img/AdobeStock_141630066-600x401.jpeg);
-    background-repeat: no-repeat;
     border-radius: 20px;
 }
 .article84 {
@@ -791,8 +791,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .article86 {
     grid-area: a86;
-    background-image: url(../img/Juicy_Vegan_Burger_Urban_deli.jpg);
-    background-repeat: no-repeat;
     border-radius: 20px;
 }
 .article87 {
@@ -827,7 +825,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 .article89 {
     grid-area: a89;
     border-radius: 20px;
-    background-image: url(../img/dippsas.jpg);
     background-repeat: no-repeat;
     background-size: 1000px;
 }
@@ -866,7 +863,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     width: 100vw;
     height: 10vh;
-    border-radius: 10px;
     font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
@@ -917,9 +913,11 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     grid-template-rows: repeat(2, 1fr);
     background-image: linear-gradient(to right, white, grey);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
 }
 .article97 {
-    grid-area: a97
+    grid-area: a97;
+    font-size: 30px;
 }
 .article99 {
     grid-area: a99
@@ -951,4 +949,31 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 .linje {
     width: 20vh;
     height: 20vh;
+}
+.div15 {
+    display: grid;
+    width: 100vw;
+    height: 25vh;
+    grid-template-areas: 
+    "a107 a108"
+    ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    background-image: linear-gradient(to right, white, grey);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.article107 {
+font-size: 30px;
+}
+.navbild {
+    width: 15vh;
+    height: 15vh;
+}
+.logotyp {
+    width: 40vh;
+    height: 25vh;
+}
+.dipphuvud {
+    height: 66vh;
+    width: 100vh;
 }
